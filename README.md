@@ -35,8 +35,11 @@ Soon, a tutorial for install grafana and configure a dashboard on my blog ( www.
 ###### Contact
 
 Email	: flotix@linux.com
+
 Twitter : flotiix
+
 GitHub	: ftx
+
 
 
 
