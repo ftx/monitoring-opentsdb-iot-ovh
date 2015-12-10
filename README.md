@@ -7,7 +7,7 @@ If you have ideas to enhance it, don't hesitate to make a pull request.
 ![alt tag](http://www.flotix.jp/wp-content/uploads/2015/12/Sélection_007.png)
 
 
-## Tutoriels
+## Tutoriel
 
 IoT Runabove OVH : 	http://www.flotix.jp/tutoriel-iot-ovh-opentsdb/
 
@@ -37,7 +37,7 @@ You need to configure first part variables in
 
 ##### Grafana
 
-Soon, a tutorial for install grafana and configure a dashboard on my blog ( www.flotix.jp )
+http://www.flotix.jp/tutoriel-installer-grafana-donnees-iot-openstdb/
 
 
 ###### Contact
