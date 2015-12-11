@@ -18,11 +18,14 @@ grafana installation :	http://www.flotix.jp/tutoriel-installer-grafana-donnees-i
 
 ##### Prerequies
 
+- curl
+- vnstat
 - python
 - python-requests
 - php5-cli
+- php5-curl
 
-
+####### apt-get install curl vnstat python python-requests php5-cli php5-curl
 
 
 ##### Configuration
