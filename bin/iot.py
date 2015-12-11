@@ -1,5 +1,13 @@
 #!/usr/bin/python
 
+from __future__ import print_function, unicode_literals
+
+import json
+import requests
+import time
+import sys
+import os
+
 #################################################################################################
 ################        CONFIGURATION
 #################################################################################################
@@ -11,14 +19,6 @@ end_point = 'https://opentsdb.iot.runabove.io/api/put'
 #################################################################################################
 ################        END CONFIGURATION
 #################################################################################################
-
-import json
-from __future__ import print_function, unicode_literals
-
-import requests
-import time
-import sys
-import os
 
 timestamp=int (time.time())
 
