@@ -52,8 +52,8 @@ fi
 ###
 ## Traffic Usage
 if [ "${MONIT_TRAFFIC}" == "1" ]; then
-IN=$(vnstati -i $ETH -tr | grep rx | awk '{print $2}')
-OUT=$(vnstat -i $ETH -tr | grep rx | awk '{print $2}')
+IN=$(vnstat -i $ETH -tr | grep rx | awk '{print $2}')
+OUT=$(vnstat -i $ETH -tr | grep tx | awk '{print $2}')
 
 python $PATH_M/bin/iot.py "$CLIENT.$NODE.Traffic.In" iot metrics "$IN"
 python $PATH_M/bin/iot.py "$CLIENT.$NODE.Traffic.Out" iot metrics "$OUT"
